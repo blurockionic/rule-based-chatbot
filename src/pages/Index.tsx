@@ -1,8 +1,12 @@
-
+import AIAssistant from "@/components/AIAssistant";
 import Chatbot from "@/components/Chatbot";
 
 const Index = () => {
-  return <Chatbot />;
+  return (
+    <>
+      <AIAssistant />
+    </>
+  );
 };
 
 export default Index;
